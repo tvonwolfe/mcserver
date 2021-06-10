@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
 module MCServer
-  require 'mcserver/server_instance'
-  require 'mcserver/server_instance_factory'
+  require_relative "mcserver/world"
+  require_relative "mcserver/world_factory"
 end
